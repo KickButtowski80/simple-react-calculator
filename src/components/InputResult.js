@@ -14,14 +14,11 @@ class InputResult extends Component {
         //     e.preventDefault();
         // }      
     }
-
-    handleChange = (e) => {
-        
-    }
     render(){
         let {result} = this.props;
+        console.log(this.props)
         return( 
-            <input id= 'input-number' type="text" name="input-number"  value={result} onChange={result} onKeyPress={this.handleKeyPress} />
+            <input id= 'input-number' type="text" name="input-number"  defaultValue={result}   onKeyPress={this.handleKeyPress} />
         )
     }
 

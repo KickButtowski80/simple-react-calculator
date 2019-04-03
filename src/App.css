@@ -8,7 +8,7 @@
 .calculator-frame{
   /* max-width: 50%; */
   border: 1px solid green;
-  height: 500px;
+  height: 550px;
   width: 450px;
 }
  
@@ -20,7 +20,11 @@
 #input-number {
  font-size: 24px;
  height: 50px;
- width: 447px;
+ width: 439px;
+ padding-left: 2px;
+ padding-right: 2px;
+ margin-left:2px;
+ margin-right:2px;
  color: white;
  background-color: black;
 }
